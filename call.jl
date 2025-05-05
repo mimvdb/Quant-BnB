@@ -6,3 +6,10 @@ function optimal_classification_2d(X, Y)
 
     return (opt, opt_tree)
 end
+
+function optimal_regression_2d(X, Y)
+    gre, gre_tree = greedy_tree(X, Y, 2, "R")
+    opt, opt_tree = QuantBnB_2D(X, Y, 3, gre*(1+1e-6), 2, 0.2, nothing, "R", false)
+
+    return (opt, opt_tree)
+end
