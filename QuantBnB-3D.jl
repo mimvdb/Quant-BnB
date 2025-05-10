@@ -1,8 +1,8 @@
 using LinearAlgebra
-include("gen_data.jl")
-include("QuantBnB-2D.jl")
-include("lowerbound_middle.jl")
-include("Algorithms.jl")
+# include("gen_data.jl")
+# include("QuantBnB-2D.jl")
+# include("lowerbound_middle.jl")
+# include("Algorithms.jl")
 
 function QuantBnB_3D(X, y, s, s2, ub, mid_method, mid_ratio, AALL = nothing, treetype = "R",
                          timelimit = 1e10)

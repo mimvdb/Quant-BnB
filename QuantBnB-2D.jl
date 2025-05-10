@@ -1,7 +1,7 @@
 using LinearAlgebra
-include("gen_data.jl")
-include("lowerbound_middle.jl")
-include("Algorithms.jl")
+# include("gen_data.jl")
+# include("lowerbound_middle.jl")
+# include("Algorithms.jl")
 
 function QuantBnB_2D(X, y, s, ub, mid_method, mid_ratio, AL = nothing, treetype = "R", ifprint = false)
 

@@ -1,6 +1,6 @@
 using LinearAlgebra
-include("gen_data.jl")
-include("Algorithms.jl")
+# include("gen_data.jl")
+# include("Algorithms.jl")
 
 function lower_bound_mid(X, y, f0, range, fs_left, fs_right, s, method, treetype = "R")
     
